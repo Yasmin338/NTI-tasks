@@ -1,0 +1,102 @@
+ *{margin: 0;
+ padding: 0;
+
+} 
+
+
+img{height: 4rem;
+width: auto;
+}
+.navbar{
+height: 4rem;
+background-color: black;
+}
+.btn-logo{height: 3rem;
+    width: 6rem;
+          border:3px solid #80b441;
+          color:#80b441;
+          border-radius: .3rem;
+          background-color: black;
+          font-size: large;
+          float: right;
+          margin-top: .4rem;
+          margin-right: .4rem;
+}
+
+
+ .container{
+ display:flex; 
+
+} 
+
+ul{
+list-style: none;
+border:2px solid black;
+border-radius: 5rem;
+height: 3rem;
+width: 45rem;
+ 
+align-self: center;
+
+margin-left: 17rem;
+margin-top: 1rem;
+
+
+box-shadow: 0 4px 12px black;
+
+}
+ul li{
+display: inline-block;
+position: relative;
+
+}
+ul li a{
+display: block;
+padding: 15px 20px;
+text-decoration: none;
+text-align: center;
+font-size: 18px;
+color: black;
+}
+
+.drop-down-content li{
+  display: block;
+}
+
+.drop-down-content{ 
+width: 100%;
+position: absolute;
+z-index: 999;
+display: none; 
+
+}
+
+ul li :hover .drop-down-content li{
+  display: block;
+}
+
+h2{
+font-size: 3rem;
+
+}
+
+#searsh{border-radius: 50rem;
+background-color:rgb(141, 142, 144);
+height: 3rem;
+width: 3rem;
+ box-sizing:border-box ;
+ margin-left: 4rem;
+ margin-top: 1.5rem;
+ padding-top: 1rem;
+ padding-left: 1rem;
+}
+.Request{
+margin-left: 2rem;
+height: 2.5rem;
+width: 10rem;
+margin-top: 1.5rem;
+background-color: black;
+color: aliceblue;
+border-radius: 10rem;
+font-size: 18px;
+}

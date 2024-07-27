@@ -1,0 +1,87 @@
+ :root{
+ --dark-color: #224F34;
+--nav-color: #C2EFD4;
+--secondary : #517d62;
+--bg-photo :#6bc786;
+} 
+body{
+
+    font-family: 'Poppins';
+    font-style: normal;
+   
+   
+
+}
+  
+/* start nav bar */
+ .navbar{background-color: var(--nav-color);
+    display: flex;
+    text-transform: uppercase; 
+    
+}
+ .navbar-brand{ 
+
+/* Rivo */
+font-family: 'Elephant';
+font-style: normal;
+color: var(--dark-color);
+margin-left: 4rem;
+font-size: 2rem;
+}
+.collapse{
+  color: var(--secondary);
+}
+
+  #icon{color: var(--dark-color);
+  margin-top: .7rem;
+}
+
+.btn{
+border-radius: 0;
+color: var(--dark-color);
+border-color: var(--dark-color);
+display: flex;
+margin-left: 2rem; 
+text-transform: uppercase; 
+}
+
+ /* end nav bar */
+
+/* start landing */
+.landing{
+background-color: var(--nav-color);
+min-height: calc(100vh - 74);
+display: flex;
+
+flex-wrap: nowrap;
+flex-direction: row;
+text-decoration-color:  #517d62;
+
+
+}
+.left-hand{
+width: 60%;
+margin: 3rem;
+font-family: 'Fanwood Text';
+font-style: normal;
+color:var(--dark-color);
+
+}
+.right-hand{
+margin: 3rem;
+  width:40%;
+   background-color:var(--bg-photo);
+  border-radius:5rem 2rem 5rem 3rem ;
+  box-shadow:2rem darkgray;
+
+}
+
+
+
+
+
+
+
+
+
+
