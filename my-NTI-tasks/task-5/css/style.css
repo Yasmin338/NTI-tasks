@@ -48,7 +48,8 @@ text-transform: uppercase;
  /* end nav bar */
 
 /* start landing */
-.landing{
+
+  .landing{
 background-color: var(--nav-color);
 min-height: calc(100vh - 74);
 display: flex;
@@ -78,10 +79,136 @@ margin: 3rem;
 
 
 
+.best-selling{
+ display: flex; 
+/* margin-top: 5rem; */
+ flex-direction: column; 
+justify-content: center; 
+align-items: center;
+color: var(--dark-color);
+height: 100vh;
+
+}
+/* .heading{
+align-self: center;
 
 
+}  */
+
+ .row{display: flex;
+  flex-direction: row;
+ 
+  }
+.card{
+ display: flex;
+  flex-direction: column; 
+width: 20rem;
+
+align-items: stretch;
+border: none;
+justify-content: stretch;
+} 
 
 
+.card-img{
 
+margin: 0 2rem;
+margin-top: 2rem;
+/* width: 70%; */
+display: flex;
+height: 18rem;
+width: 17rem; 
+align-items: stretch;
+
+}
+
+
+.card-body{
+color: var(--dark-color);
+align-self: center;
+
+}
+.card-body i{color: gold;}
+.card-body span{
+  margin-left: 2rem;
+}
+
+#see-all{
+  margin-top: 1.5rem;
+width:8rem;
+align-self: center;
+}
+#see-all i{margin-left: 1rem;
+  margin-top: .3rem;
+}
+/* section 2 */
+.our-products{
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+}
+
+.list-group-horizontal{
+justify-content: center;
+
+
+}
+
+.row2{
+  display: flex;
+  flex-direction: row;
+}
+.card2{
+
+  display: flex;
+  flex-direction: column; 
+width: 18rem;
+align-items: stretch;
+border: none;
+}
+
+/* section 3 */
+
+.card-horizontal{
+margin: 10rem;
+display: flex;
+
+justify-content: space-around;
+
+
+}
+.card-border{width: 5rem;
+height: 5rem;
+background-color: aliceblue;
+border-radius: .5rem;
+box-shadow:2px grey;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-right: 2rem;
+}
+#BUY-NOW{
+  margin-top: 1.5rem;
+  width:8rem;
+  align-self: center;
+display: block;
+background-color: #224F34;
+color: aliceblue;
+}
+
+.Designer-Clothes{display: flex; 
+  /* margin-top: 5rem; */
+   flex-direction: column;  
+  justify-content: center; 
+  align-items: center;
+  color: var(--dark-color);
+  height: 100vh;
+  }
+.row3{display: flex;
+flex-direction: row;}
 
 
